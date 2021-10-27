@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+.app-wrapper {
+  width: 1230px;
+  margin: 0 auto;
+  /* grid-gap: 10px*/
+}
+.app-wrapper-content {
+  grid-area: c;
+  background-color: #f5eded;
+}
+.content img {
+  max-width: 100%;
+}
+.item {
+  color: yellow;
+}
+.pages {
+  margin: 20px 0;
+}
+.page,
+.current-page {
+  border: 1px solid lightgray;
+  border-radius: 100%;
+  padding: 5px 10px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.current-page {
+  border-radius: 2px solid grey;
+  font-weight: 700;
+  background-color: azure;
+}
